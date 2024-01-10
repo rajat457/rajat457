@@ -50,7 +50,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="index.html" class="navbar-link">Home</a>
+            <a href="https://github.com/rajat457/rajat457.github.io/blob/main/index.html" class="navbar-link">Home</a>
           </li>
 
           <li class="navbar-item">
@@ -58,7 +58,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="products.html" class="navbar-link">Products</a>
+            <a href="https://github.com/rajat457/rajat457.github.io/blob/main/templates/products.html" class="navbar-link">Products</a>
           </li>
 
           <li class="navbar-item">
@@ -70,7 +70,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="contact.html" class="navbar-link">Contact</a>
+            <a href="https://github.com/rajat457/rajat457.github.io/blob/main/templates/contact.html" class="navbar-link">Contact</a>
           </li>
 
         </ul>
@@ -86,7 +86,7 @@
           </li>
 
           <li>
-            {% if current_user.is_authenticated: %}
+             {% if current_user.is_authenticated: %}
             <a href="{{url_for('logout')}}" class="nav-action-btn">Logout
               <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
 
@@ -99,6 +99,7 @@
               <span class="nav-action-text">Login / Register</span>
             </a>
             {% endif %}
+      
 
           </li>
 
